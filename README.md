@@ -106,7 +106,6 @@ $map = array( string    "name" =>
        )
 ```
 
-## Sample
 ```
 $query = "UPDATE guest SET name = :name WHERE id = :id";
 
