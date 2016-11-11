@@ -1,0 +1,28 @@
+{
+    "name": "topolis/database-connector",
+    "description": "Connectors for SQL databases. Includes binding or parameters, type mapping, debugging and profiling",
+    "type": "library",
+    "keywords": [
+        "library",
+        "topolis",
+        "sql",
+        "database",
+        "mysql",
+        "oracle",
+        "postgresql"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ToBe998",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload" : {
+        "psr-4" : {
+            "Topolis\\DatabaseConnector\\" : "src"
+        }
+    }
+}
